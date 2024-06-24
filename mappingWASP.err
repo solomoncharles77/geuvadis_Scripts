@@ -1,0 +1,48 @@
+Traceback (most recent call last):
+  File "/cm/shared/spack/opt/spack/linux-rocky9-x86_64_v3/gcc-12.3.0/py-numpy-1.25.0-dv7bfydeo77e4kfeow5uvtqrpzvw2ma7/lib/python3.10/site-packages/numpy/core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/cm/shared/spack/opt/spack/linux-rocky9-x86_64_v3/gcc-12.3.0/py-numpy-1.25.0-dv7bfydeo77e4kfeow5uvtqrpzvw2ma7/lib/python3.10/site-packages/numpy/core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/cm/shared/spack/opt/spack/linux-rocky9-x86_64_v3/gcc-12.3.0/py-numpy-1.25.0-dv7bfydeo77e4kfeow5uvtqrpzvw2ma7/lib/python3.10/site-packages/numpy/core/overrides.py", line 8, in <module>
+    from numpy.core._multiarray_umath import (
+ModuleNotFoundError: No module named 'numpy.core._multiarray_umath'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/c/cs806/miniconda3/envs/mypython311/bin/multiqc", line 6, in <module>
+    from multiqc.__main__ import run_multiqc
+  File "/home/c/cs806/miniconda3/envs/mypython311/lib/python3.11/site-packages/multiqc/__init__.py", line 16, in <module>
+    from .multiqc import run
+  File "/home/c/cs806/miniconda3/envs/mypython311/lib/python3.11/site-packages/multiqc/multiqc.py", line 30, in <module>
+    from .plots import table
+  File "/home/c/cs806/miniconda3/envs/mypython311/lib/python3.11/site-packages/multiqc/plots/table.py", line 10, in <module>
+    from multiqc.utils import config, mqc_colour, report, util_functions
+  File "/home/c/cs806/miniconda3/envs/mypython311/lib/python3.11/site-packages/multiqc/utils/mqc_colour.py", line 11, in <module>
+    import numpy as np
+  File "/cm/shared/spack/opt/spack/linux-rocky9-x86_64_v3/gcc-12.3.0/py-numpy-1.25.0-dv7bfydeo77e4kfeow5uvtqrpzvw2ma7/lib/python3.10/site-packages/numpy/__init__.py", line 139, in <module>
+    from . import core
+  File "/cm/shared/spack/opt/spack/linux-rocky9-x86_64_v3/gcc-12.3.0/py-numpy-1.25.0-dv7bfydeo77e4kfeow5uvtqrpzvw2ma7/lib/python3.10/site-packages/numpy/core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.11 from "/home/c/cs806/miniconda3/envs/mypython311/bin/python3.11"
+  * The NumPy version is: "1.25.0"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: No module named 'numpy.core._multiarray_umath'
+

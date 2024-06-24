@@ -1,0 +1,64 @@
+#!/bin/bash
+
+#SBATCH --job-name=eurWaspMap
+#SBATCH --account=vasccell
+#SBATCH --nodes=1
+#SBATCH --cpus-per-task=28
+#SBATCH --mem=50G
+#SBATCH --time=72:00:00
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --mail-user=cs806@leicester.ac.uk
+#SBATCH --output=%x.out
+#SBATCH --error=%x.err
+#SBATCH --export=NONE
+
+cd $SLURM_SUBMIT_DIR
+
+
+date
+
+# Load modules
+module load star/2.7.10b-m3zkpic
+
+#step 1 - generate genome index
+#STAR --runMode genomeGenerate --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --genomeFastaFiles /scratch/vasccell/cs806/exprPhenoData/Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa --sjdbGTFfile /scratch/vasccell/cs806/exprPhenoData/Homo_sapiens.GRCh38.100.gtf --sjdbOverhang 75
+
+# # Split EUR VCF to one sample per file
+# for file in /lustre/alice3/scratch/vasccell/cs806/geuvadis/genoFiles/eurGeno.vcf; do
+#   for sample in `bcftools query -l $file`; do
+#     bcftools view -c1 -Ov -s $sample -o /lustre/alice3/scratch/vasccell/cs806/geuvadis/genoFiles/splitEurGeno/${sample}.vcf $file
+#   done
+# done
+
+# Confirm the fastq extension is correct.
+find /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads -maxdepth 1 -type f -name "*_1.fastq.gz" -exec basename {} \; | sed 's/_1.fastq.gz//g' > /lustre/alice3/scratch/vasccell/cs806/geuvadis/geuvadis_Scripts/allSeq2.txt
+
+
+while IFS= read -r F
+do
+
+  R1=${F}_1.fastq.gz
+  R2=${F}_2.fastq.gz
+  
+  # Normal STAR YRI
+  #STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/$R1 /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/$R2 --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/$F --twopassMode Basic --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype BAM Unsorted --outFilterType BySJout --limitSjdbInsertNsj 2000000  
+  
+  # WASP STAR YRI
+  #STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/$R1 /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/$R2 --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/$F --twopassMode Basic --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype BAM Unsorted --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/$F.vcf
+  
+  # WASP STAR EUR
+  STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/$R1 /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/$R2 --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/$F --twopassMode Basic  --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype BAM Unsorted --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitEurGeno/$F.vcf
+
+
+#echo $F
+#echo $R1
+#echo $R2
+
+done < /lustre/alice3/scratch/vasccell/cs806/geuvadis/geuvadis_Scripts/allSeq2.txt
+
+source ~/miniconda3/bin/activate mypython311
+multiqc /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads -f --interactive -o /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads
+
+date
+
+

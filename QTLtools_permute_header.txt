@@ -1,0 +1,26 @@
+1    	phe_id | grp_id	The phenotype ID or if one of the grouping options is provided, then phenotype group ID
+2    	phe_chr	The phenotype chromosome
+3    	phe_from	Start position of the phenotype
+4    	phe_to	End position of the phenotype
+5    	phe_strd	The phenotype strand
+5.1    	phe_id | ve_by_pc1 | n_phe_in_grp	Only printed if --group-best | --group-pca1 | --group-mean. The phenotype ID, variance explained by PC1, or number of phenotypes in the phenotype group for --group-best, --group-pca1, and --group-mean, respectively.
+5.2    	n_phe_in_grp	Only printed if --group-pca1 | --group-mean. The number of phenotypes in the phenotype group.
+6    	n_var_in_cis	The number variants in the cis window for this phenotype.
+7    	dist_phe_var	The distance between the variant and the phenotype start positions.
+8    	var_id	The most significant variant ID.
+9    	var_chr	The most significant variant's chromosome.
+10    	var_from	The start position of the most significant variant.
+11    	var_to	The end position of the most significant variant.
+12    	rank	The rank of the association. This tells you if the variant has been mapped as belonging to the best signal (rank=0), the second best (rank=1), etc ... As a consequence, the maximum rank value for a given phenotype tells you how many independent signals there are (e.g. rank=2 means 3 independent signals).
+13    	fwd_pval	The nominal forward p-value of the association between the most significant variant and the phenotype.
+14    	fwd_r_squared	The r squared of the forward linear regression.
+15    	fwd_slope	The beta (slope) of the forward linear regression.
+15.1    	fwd_slope_se	The standard error of the forward beta. Only printed if --std-err is provided.
+16    	fwd_best_hit	Whether or not this variant was the forward most significant variant.
+17    	fwd_sig	Whether this variant was significant. Currently all variants are significant so this is redundant.
+18    	bwd_pval	The nominal backward p-value of the association between the most significant variant and the phenotype.
+19    	bwd_r_squared	The r squared of the backward linear regression.
+20    	bwd_slope	The beta (slope) of the backward linear regression.
+20.1    	bwd_slope_se	The standard error of the backward beta. Only printed if --std-err is provided.
+21    	bwd_best_hit	Whether or not this variant was the backward most significant variant.
+22    	bwd_sig	Whether this variant was significant. Currently all variants are significant so this is redundant.

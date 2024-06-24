@@ -1,0 +1,5 @@
+Error in validObject(.Object) : 
+  invalid class “SummarizedExperiment” object: 
+    nb of cols in 'assay' (1) must equal nb of rows in 'colData' (0)
+Calls: DESeqDataSetFromMatrix ... new_SummarizedExperiment -> new -> initialize -> initialize -> validObject
+Execution halted

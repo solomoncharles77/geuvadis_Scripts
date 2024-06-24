@@ -1,0 +1,948 @@
+Thu May  9 07:05:01 PM BST 2024
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19119_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19119_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19119 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19119.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 19:05:01 ..... started STAR run
+May 09 19:05:01 ..... loading genome
+May 09 19:06:03 ..... loading variations VCF
+May 09 19:06:07 ..... started 1st pass mapping
+May 09 19:06:49 ..... finished 1st pass mapping
+May 09 19:06:50 ..... inserting junctions into the genome indices
+May 09 19:08:11 ..... started mapping
+May 09 19:10:37 ..... finished mapping
+May 09 19:10:38 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19129_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19129_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19129 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19129.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 19:10:38 ..... started STAR run
+May 09 19:10:38 ..... loading genome
+May 09 19:11:12 ..... loading variations VCF
+May 09 19:11:16 ..... started 1st pass mapping
+May 09 19:12:36 ..... finished 1st pass mapping
+May 09 19:12:37 ..... inserting junctions into the genome indices
+May 09 19:14:01 ..... started mapping
+May 09 19:17:21 ..... finished mapping
+May 09 19:17:22 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19143_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19143_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19143 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19143.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 19:17:22 ..... started STAR run
+May 09 19:17:22 ..... loading genome
+May 09 19:17:52 ..... loading variations VCF
+May 09 19:17:56 ..... started 1st pass mapping
+May 09 19:18:42 ..... finished 1st pass mapping
+May 09 19:18:43 ..... inserting junctions into the genome indices
+May 09 19:19:59 ..... started mapping
+May 09 19:22:38 ..... finished mapping
+May 09 19:22:39 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19107_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19107_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19107 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19107.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 19:22:40 ..... started STAR run
+May 09 19:22:40 ..... loading genome
+May 09 19:23:07 ..... loading variations VCF
+May 09 19:23:11 ..... started 1st pass mapping
+May 09 19:24:04 ..... finished 1st pass mapping
+May 09 19:24:05 ..... inserting junctions into the genome indices
+May 09 19:25:27 ..... started mapping
+May 09 19:28:24 ..... finished mapping
+May 09 19:28:25 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18517_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18517_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA18517 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA18517.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 19:28:26 ..... started STAR run
+May 09 19:28:26 ..... loading genome
+May 09 19:28:56 ..... loading variations VCF
+May 09 19:29:00 ..... started 1st pass mapping
+May 09 19:29:36 ..... finished 1st pass mapping
+May 09 19:29:37 ..... inserting junctions into the genome indices
+May 09 19:30:51 ..... started mapping
+May 09 19:32:58 ..... finished mapping
+May 09 19:32:59 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19200_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19200_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19200 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19200.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 19:32:59 ..... started STAR run
+May 09 19:33:00 ..... loading genome
+May 09 19:33:29 ..... loading variations VCF
+May 09 19:33:33 ..... started 1st pass mapping
+May 09 19:34:23 ..... finished 1st pass mapping
+May 09 19:34:24 ..... inserting junctions into the genome indices
+May 09 19:35:52 ..... started mapping
+May 09 19:38:40 ..... finished mapping
+May 09 19:38:41 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19152_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19152_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19152 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19152.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 19:38:41 ..... started STAR run
+May 09 19:38:42 ..... loading genome
+May 09 19:39:09 ..... loading variations VCF
+May 09 19:39:14 ..... started 1st pass mapping
+May 09 19:39:55 ..... finished 1st pass mapping
+May 09 19:39:56 ..... inserting junctions into the genome indices
+May 09 19:41:11 ..... started mapping
+May 09 19:43:35 ..... finished mapping
+May 09 19:43:36 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18861_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18861_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA18861 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA18861.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 19:43:37 ..... started STAR run
+May 09 19:43:37 ..... loading genome
+May 09 19:44:08 ..... loading variations VCF
+May 09 19:44:12 ..... started 1st pass mapping
+May 09 19:45:46 ..... finished 1st pass mapping
+May 09 19:45:47 ..... inserting junctions into the genome indices
+May 09 19:47:10 ..... started mapping
+May 09 19:49:32 ..... finished mapping
+May 09 19:49:32 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18910_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18910_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA18910 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA18910.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 19:49:33 ..... started STAR run
+May 09 19:49:33 ..... loading genome
+May 09 19:50:12 ..... loading variations VCF
+May 09 19:50:17 ..... started 1st pass mapping
+May 09 19:51:03 ..... finished 1st pass mapping
+May 09 19:51:04 ..... inserting junctions into the genome indices
+May 09 19:52:20 ..... started mapping
+May 09 19:55:06 ..... finished mapping
+May 09 19:55:06 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19138_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19138_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19138 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19138.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 19:55:07 ..... started STAR run
+May 09 19:55:07 ..... loading genome
+May 09 19:55:39 ..... loading variations VCF
+May 09 19:55:44 ..... started 1st pass mapping
+May 09 19:56:19 ..... finished 1st pass mapping
+May 09 19:56:20 ..... inserting junctions into the genome indices
+May 09 19:57:41 ..... started mapping
+May 09 19:59:34 ..... finished mapping
+May 09 19:59:35 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18502_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18502_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA18502 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA18502.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 19:59:36 ..... started STAR run
+May 09 19:59:36 ..... loading genome
+May 09 20:00:03 ..... loading variations VCF
+May 09 20:00:07 ..... started 1st pass mapping
+May 09 20:00:48 ..... finished 1st pass mapping
+May 09 20:00:49 ..... inserting junctions into the genome indices
+May 09 20:02:04 ..... started mapping
+May 09 20:04:28 ..... finished mapping
+May 09 20:04:29 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19095_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19095_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19095 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19095.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 20:04:29 ..... started STAR run
+May 09 20:04:29 ..... loading genome
+May 09 20:04:56 ..... loading variations VCF
+May 09 20:05:00 ..... started 1st pass mapping
+May 09 20:06:09 ..... finished 1st pass mapping
+May 09 20:06:10 ..... inserting junctions into the genome indices
+May 09 20:07:34 ..... started mapping
+May 09 20:12:15 ..... finished mapping
+May 09 20:12:16 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19206_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19206_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19206 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19206.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 20:12:16 ..... started STAR run
+May 09 20:12:16 ..... loading genome
+May 09 20:12:44 ..... loading variations VCF
+May 09 20:12:48 ..... started 1st pass mapping
+May 09 20:13:26 ..... finished 1st pass mapping
+May 09 20:13:27 ..... inserting junctions into the genome indices
+May 09 20:14:41 ..... started mapping
+May 09 20:16:43 ..... finished mapping
+May 09 20:16:44 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19222_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19222_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19222 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19222.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 20:16:44 ..... started STAR run
+May 09 20:16:45 ..... loading genome
+May 09 20:17:13 ..... loading variations VCF
+May 09 20:17:17 ..... started 1st pass mapping
+May 09 20:18:04 ..... finished 1st pass mapping
+May 09 20:18:05 ..... inserting junctions into the genome indices
+May 09 20:19:27 ..... started mapping
+May 09 20:22:26 ..... finished mapping
+May 09 20:22:27 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18868_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18868_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA18868 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA18868.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 20:22:27 ..... started STAR run
+May 09 20:22:27 ..... loading genome
+May 09 20:22:54 ..... loading variations VCF
+May 09 20:22:58 ..... started 1st pass mapping
+May 09 20:23:39 ..... finished 1st pass mapping
+May 09 20:23:41 ..... inserting junctions into the genome indices
+May 09 20:24:55 ..... started mapping
+May 09 20:27:18 ..... finished mapping
+May 09 20:27:19 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19131_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19131_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19131 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19131.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 20:27:19 ..... started STAR run
+May 09 20:27:19 ..... loading genome
+May 09 20:27:50 ..... loading variations VCF
+May 09 20:27:54 ..... started 1st pass mapping
+May 09 20:28:42 ..... finished 1st pass mapping
+May 09 20:28:44 ..... inserting junctions into the genome indices
+May 09 20:30:08 ..... started mapping
+May 09 20:32:57 ..... finished mapping
+May 09 20:32:58 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19160_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19160_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19160 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19160.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 20:32:59 ..... started STAR run
+May 09 20:32:59 ..... loading genome
+May 09 20:33:34 ..... loading variations VCF
+May 09 20:33:39 ..... started 1st pass mapping
+May 09 20:34:51 ..... finished 1st pass mapping
+May 09 20:34:52 ..... inserting junctions into the genome indices
+May 09 20:36:06 ..... started mapping
+May 09 20:38:53 ..... finished mapping
+May 09 20:38:54 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19130_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19130_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19130 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19130.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 20:38:55 ..... started STAR run
+May 09 20:38:55 ..... loading genome
+May 09 20:39:30 ..... loading variations VCF
+May 09 20:39:34 ..... started 1st pass mapping
+May 09 20:40:29 ..... finished 1st pass mapping
+May 09 20:40:30 ..... inserting junctions into the genome indices
+May 09 20:41:53 ..... started mapping
+May 09 20:44:49 ..... finished mapping
+May 09 20:44:50 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19189_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19189_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19189 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19189.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 20:44:51 ..... started STAR run
+May 09 20:44:51 ..... loading genome
+May 09 20:45:35 ..... loading variations VCF
+May 09 20:45:39 ..... started 1st pass mapping
+May 09 20:46:32 ..... finished 1st pass mapping
+May 09 20:46:33 ..... inserting junctions into the genome indices
+May 09 20:47:49 ..... started mapping
+May 09 20:50:54 ..... finished mapping
+May 09 20:50:55 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18912_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18912_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA18912 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA18912.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 20:50:55 ..... started STAR run
+May 09 20:50:56 ..... loading genome
+May 09 20:51:43 ..... loading variations VCF
+May 09 20:51:47 ..... started 1st pass mapping
+May 09 20:52:39 ..... finished 1st pass mapping
+May 09 20:52:40 ..... inserting junctions into the genome indices
+May 09 20:54:06 ..... started mapping
+May 09 20:56:57 ..... finished mapping
+May 09 20:56:58 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18923_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18923_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA18923 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA18923.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 20:56:59 ..... started STAR run
+May 09 20:56:59 ..... loading genome
+May 09 20:57:46 ..... loading variations VCF
+May 09 20:57:51 ..... started 1st pass mapping
+May 09 20:58:36 ..... finished 1st pass mapping
+May 09 20:58:37 ..... inserting junctions into the genome indices
+May 09 20:59:52 ..... started mapping
+May 09 21:02:32 ..... finished mapping
+May 09 21:02:33 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19198_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19198_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19198 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19198.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 21:02:34 ..... started STAR run
+May 09 21:02:34 ..... loading genome
+May 09 21:03:05 ..... loading variations VCF
+May 09 21:03:09 ..... started 1st pass mapping
+May 09 21:03:56 ..... finished 1st pass mapping
+May 09 21:03:57 ..... inserting junctions into the genome indices
+May 09 21:05:19 ..... started mapping
+May 09 21:07:58 ..... finished mapping
+May 09 21:07:59 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18934_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18934_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA18934 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA18934.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 21:08:00 ..... started STAR run
+May 09 21:08:00 ..... loading genome
+May 09 21:08:27 ..... loading variations VCF
+May 09 21:08:31 ..... started 1st pass mapping
+May 09 21:09:51 ..... finished 1st pass mapping
+May 09 21:09:52 ..... inserting junctions into the genome indices
+May 09 21:11:06 ..... started mapping
+May 09 21:14:17 ..... finished mapping
+May 09 21:14:18 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19144_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19144_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19144 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19144.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 21:14:18 ..... started STAR run
+May 09 21:14:19 ..... loading genome
+May 09 21:14:48 ..... loading variations VCF
+May 09 21:14:52 ..... started 1st pass mapping
+May 09 21:15:54 ..... finished 1st pass mapping
+May 09 21:15:55 ..... inserting junctions into the genome indices
+May 09 21:17:16 ..... started mapping
+May 09 21:21:25 ..... finished mapping
+May 09 21:21:26 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18908_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18908_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA18908 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA18908.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 21:21:27 ..... started STAR run
+May 09 21:21:27 ..... loading genome
+May 09 21:22:00 ..... loading variations VCF
+May 09 21:22:04 ..... started 1st pass mapping
+May 09 21:23:21 ..... finished 1st pass mapping
+May 09 21:23:22 ..... inserting junctions into the genome indices
+May 09 21:24:37 ..... started mapping
+May 09 21:27:40 ..... finished mapping
+May 09 21:27:41 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18488_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18488_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA18488 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA18488.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 21:27:41 ..... started STAR run
+May 09 21:27:42 ..... loading genome
+May 09 21:28:12 ..... loading variations VCF
+May 09 21:28:16 ..... started 1st pass mapping
+May 09 21:28:54 ..... finished 1st pass mapping
+May 09 21:28:55 ..... inserting junctions into the genome indices
+May 09 21:30:14 ..... started mapping
+May 09 21:32:29 ..... finished mapping
+May 09 21:32:30 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18511_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18511_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA18511 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA18511.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 21:32:30 ..... started STAR run
+May 09 21:32:31 ..... loading genome
+May 09 21:33:04 ..... loading variations VCF
+May 09 21:33:08 ..... started 1st pass mapping
+May 09 21:33:43 ..... finished 1st pass mapping
+May 09 21:33:44 ..... inserting junctions into the genome indices
+May 09 21:35:00 ..... started mapping
+May 09 21:37:06 ..... finished mapping
+May 09 21:37:07 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19172_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19172_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19172 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19172.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 21:37:08 ..... started STAR run
+May 09 21:37:08 ..... loading genome
+May 09 21:37:39 ..... loading variations VCF
+May 09 21:37:43 ..... started 1st pass mapping
+May 09 21:38:30 ..... finished 1st pass mapping
+May 09 21:38:31 ..... inserting junctions into the genome indices
+May 09 21:39:52 ..... started mapping
+May 09 21:42:45 ..... finished mapping
+May 09 21:42:46 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19257_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19257_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19257 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19257.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 21:42:46 ..... started STAR run
+May 09 21:42:46 ..... loading genome
+May 09 21:43:27 ..... loading variations VCF
+May 09 21:43:31 ..... started 1st pass mapping
+May 09 21:44:10 ..... finished 1st pass mapping
+May 09 21:44:11 ..... inserting junctions into the genome indices
+May 09 21:45:25 ..... started mapping
+May 09 21:47:53 ..... finished mapping
+May 09 21:47:54 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19207_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19207_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19207 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19207.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 21:47:55 ..... started STAR run
+May 09 21:47:55 ..... loading genome
+May 09 21:48:25 ..... loading variations VCF
+May 09 21:48:29 ..... started 1st pass mapping
+May 09 21:49:04 ..... finished 1st pass mapping
+May 09 21:49:05 ..... inserting junctions into the genome indices
+May 09 21:50:27 ..... started mapping
+May 09 21:52:15 ..... finished mapping
+May 09 21:52:16 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19225_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19225_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19225 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19225.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 21:52:16 ..... started STAR run
+May 09 21:52:16 ..... loading genome
+May 09 21:52:45 ..... loading variations VCF
+May 09 21:52:49 ..... started 1st pass mapping
+May 09 21:54:01 ..... finished 1st pass mapping
+May 09 21:54:02 ..... inserting junctions into the genome indices
+May 09 21:55:20 ..... started mapping
+May 09 22:00:22 ..... finished mapping
+May 09 22:00:23 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18486_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18486_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA18486 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA18486.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 22:00:24 ..... started STAR run
+May 09 22:00:24 ..... loading genome
+May 09 22:00:54 ..... loading variations VCF
+May 09 22:00:58 ..... started 1st pass mapping
+May 09 22:01:38 ..... finished 1st pass mapping
+May 09 22:01:39 ..... inserting junctions into the genome indices
+May 09 22:03:02 ..... started mapping
+May 09 22:05:22 ..... finished mapping
+May 09 22:05:23 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19197_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19197_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19197 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19197.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 22:05:23 ..... started STAR run
+May 09 22:05:23 ..... loading genome
+May 09 22:05:50 ..... loading variations VCF
+May 09 22:05:54 ..... started 1st pass mapping
+May 09 22:06:41 ..... finished 1st pass mapping
+May 09 22:06:41 ..... inserting junctions into the genome indices
+May 09 22:07:58 ..... started mapping
+May 09 22:10:25 ..... finished mapping
+May 09 22:10:26 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19146_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19146_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19146 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19146.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 22:10:26 ..... started STAR run
+May 09 22:10:26 ..... loading genome
+May 09 22:10:53 ..... loading variations VCF
+May 09 22:10:56 ..... started 1st pass mapping
+May 09 22:11:41 ..... finished 1st pass mapping
+May 09 22:11:42 ..... inserting junctions into the genome indices
+May 09 22:13:04 ..... started mapping
+May 09 22:15:50 ..... finished mapping
+May 09 22:15:50 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19256_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19256_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19256 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19256.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 22:15:51 ..... started STAR run
+May 09 22:15:51 ..... loading genome
+May 09 22:16:18 ..... loading variations VCF
+May 09 22:16:22 ..... started 1st pass mapping
+May 09 22:16:59 ..... finished 1st pass mapping
+May 09 22:17:00 ..... inserting junctions into the genome indices
+May 09 22:18:14 ..... started mapping
+May 09 22:20:22 ..... finished mapping
+May 09 22:20:23 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19175_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19175_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19175 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19175.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 22:20:24 ..... started STAR run
+May 09 22:20:24 ..... loading genome
+May 09 22:20:52 ..... loading variations VCF
+May 09 22:20:56 ..... started 1st pass mapping
+May 09 22:21:45 ..... finished 1st pass mapping
+May 09 22:21:46 ..... inserting junctions into the genome indices
+May 09 22:23:08 ..... started mapping
+May 09 22:25:54 ..... finished mapping
+May 09 22:25:55 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19159_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19159_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19159 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19159.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 22:25:56 ..... started STAR run
+May 09 22:25:56 ..... loading genome
+May 09 22:26:23 ..... loading variations VCF
+May 09 22:26:27 ..... started 1st pass mapping
+May 09 22:27:05 ..... finished 1st pass mapping
+May 09 22:27:06 ..... inserting junctions into the genome indices
+May 09 22:28:20 ..... started mapping
+May 09 22:30:32 ..... finished mapping
+May 09 22:30:33 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19236_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19236_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19236 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19236.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 22:30:33 ..... started STAR run
+May 09 22:30:34 ..... loading genome
+May 09 22:31:00 ..... loading variations VCF
+May 09 22:31:04 ..... started 1st pass mapping
+May 09 22:31:47 ..... finished 1st pass mapping
+May 09 22:31:47 ..... inserting junctions into the genome indices
+May 09 22:33:10 ..... started mapping
+May 09 22:35:41 ..... finished mapping
+May 09 22:35:41 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18858_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18858_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA18858 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA18858.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 22:35:42 ..... started STAR run
+May 09 22:35:42 ..... loading genome
+May 09 22:36:06 ..... loading variations VCF
+May 09 22:36:10 ..... started 1st pass mapping
+May 09 22:37:29 ..... finished 1st pass mapping
+May 09 22:37:30 ..... inserting junctions into the genome indices
+May 09 22:38:45 ..... started mapping
+May 09 22:42:00 ..... finished mapping
+May 09 22:42:01 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19096_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19096_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19096 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19096.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 22:42:01 ..... started STAR run
+May 09 22:42:02 ..... loading genome
+May 09 22:42:28 ..... loading variations VCF
+May 09 22:42:32 ..... started 1st pass mapping
+May 09 22:43:10 ..... finished 1st pass mapping
+May 09 22:43:11 ..... inserting junctions into the genome indices
+May 09 22:44:32 ..... started mapping
+May 09 22:46:50 ..... finished mapping
+May 09 22:46:51 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19121_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19121_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19121 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19121.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 22:46:51 ..... started STAR run
+May 09 22:46:52 ..... loading genome
+May 09 22:47:19 ..... loading variations VCF
+May 09 22:47:23 ..... started 1st pass mapping
+May 09 22:48:18 ..... finished 1st pass mapping
+May 09 22:48:19 ..... inserting junctions into the genome indices
+May 09 22:49:36 ..... started mapping
+May 09 22:52:59 ..... finished mapping
+May 09 22:53:00 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19099_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19099_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19099 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19099.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 22:53:01 ..... started STAR run
+May 09 22:53:01 ..... loading genome
+May 09 22:53:31 ..... loading variations VCF
+May 09 22:53:35 ..... started 1st pass mapping
+May 09 22:54:09 ..... finished 1st pass mapping
+May 09 22:54:10 ..... inserting junctions into the genome indices
+May 09 22:55:31 ..... started mapping
+May 09 22:57:28 ..... finished mapping
+May 09 22:57:28 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18505_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18505_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA18505 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA18505.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 22:57:29 ..... started STAR run
+May 09 22:57:29 ..... loading genome
+May 09 22:57:56 ..... loading variations VCF
+May 09 22:58:00 ..... started 1st pass mapping
+May 09 22:58:44 ..... finished 1st pass mapping
+May 09 22:58:45 ..... inserting junctions into the genome indices
+May 09 22:59:59 ..... started mapping
+May 09 23:02:31 ..... finished mapping
+May 09 23:02:32 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18870_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18870_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA18870 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA18870.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 23:02:32 ..... started STAR run
+May 09 23:02:32 ..... loading genome
+May 09 23:02:59 ..... loading variations VCF
+May 09 23:03:03 ..... started 1st pass mapping
+May 09 23:03:51 ..... finished 1st pass mapping
+May 09 23:03:52 ..... inserting junctions into the genome indices
+May 09 23:05:14 ..... started mapping
+May 09 23:07:42 ..... finished mapping
+May 09 23:07:43 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19185_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19185_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19185 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19185.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 23:07:44 ..... started STAR run
+May 09 23:07:44 ..... loading genome
+May 09 23:08:11 ..... loading variations VCF
+May 09 23:08:15 ..... started 1st pass mapping
+May 09 23:08:56 ..... finished 1st pass mapping
+May 09 23:08:57 ..... inserting junctions into the genome indices
+May 09 23:10:10 ..... started mapping
+May 09 23:12:27 ..... finished mapping
+May 09 23:12:28 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19190_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19190_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19190 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19190.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 23:12:29 ..... started STAR run
+May 09 23:12:29 ..... loading genome
+May 09 23:12:56 ..... loading variations VCF
+May 09 23:13:00 ..... started 1st pass mapping
+May 09 23:13:47 ..... finished 1st pass mapping
+May 09 23:13:48 ..... inserting junctions into the genome indices
+May 09 23:15:11 ..... started mapping
+May 09 23:18:09 ..... finished mapping
+May 09 23:18:10 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18916_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18916_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA18916 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA18916.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 23:18:10 ..... started STAR run
+May 09 23:18:10 ..... loading genome
+May 09 23:18:39 ..... loading variations VCF
+May 09 23:18:44 ..... started 1st pass mapping
+May 09 23:19:31 ..... finished 1st pass mapping
+May 09 23:19:32 ..... inserting junctions into the genome indices
+May 09 23:20:48 ..... started mapping
+May 09 23:23:38 ..... finished mapping
+May 09 23:23:39 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19114_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19114_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19114 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19114.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 23:23:39 ..... started STAR run
+May 09 23:23:39 ..... loading genome
+May 09 23:24:10 ..... loading variations VCF
+May 09 23:24:14 ..... started 1st pass mapping
+May 09 23:25:06 ..... finished 1st pass mapping
+May 09 23:25:07 ..... inserting junctions into the genome indices
+May 09 23:26:30 ..... started mapping
+May 09 23:29:53 ..... finished mapping
+May 09 23:29:54 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19113_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19113_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19113 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19113.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 23:29:54 ..... started STAR run
+May 09 23:29:54 ..... loading genome
+May 09 23:30:24 ..... loading variations VCF
+May 09 23:30:28 ..... started 1st pass mapping
+May 09 23:31:23 ..... finished 1st pass mapping
+May 09 23:31:24 ..... inserting junctions into the genome indices
+May 09 23:32:41 ..... started mapping
+May 09 23:36:10 ..... finished mapping
+May 09 23:36:11 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19116_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19116_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19116 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19116.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 23:36:12 ..... started STAR run
+May 09 23:36:12 ..... loading genome
+May 09 23:36:41 ..... loading variations VCF
+May 09 23:36:45 ..... started 1st pass mapping
+May 09 23:37:30 ..... finished 1st pass mapping
+May 09 23:37:31 ..... inserting junctions into the genome indices
+May 09 23:38:54 ..... started mapping
+May 09 23:41:40 ..... finished mapping
+May 09 23:41:41 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18909_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18909_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA18909 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA18909.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 23:41:41 ..... started STAR run
+May 09 23:41:41 ..... loading genome
+May 09 23:42:08 ..... loading variations VCF
+May 09 23:42:13 ..... started 1st pass mapping
+May 09 23:42:53 ..... finished 1st pass mapping
+May 09 23:42:54 ..... inserting junctions into the genome indices
+May 09 23:44:08 ..... started mapping
+May 09 23:46:36 ..... finished mapping
+May 09 23:46:37 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19210_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19210_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19210 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19210.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 23:46:38 ..... started STAR run
+May 09 23:46:38 ..... loading genome
+May 09 23:47:07 ..... loading variations VCF
+May 09 23:47:11 ..... started 1st pass mapping
+May 09 23:47:57 ..... finished 1st pass mapping
+May 09 23:47:58 ..... inserting junctions into the genome indices
+May 09 23:49:17 ..... started mapping
+May 09 23:52:08 ..... finished mapping
+May 09 23:52:09 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18873_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18873_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA18873 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA18873.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 23:52:10 ..... started STAR run
+May 09 23:52:10 ..... loading genome
+May 09 23:52:37 ..... loading variations VCF
+May 09 23:52:40 ..... started 1st pass mapping
+May 09 23:53:21 ..... finished 1st pass mapping
+May 09 23:53:22 ..... inserting junctions into the genome indices
+May 09 23:54:37 ..... started mapping
+May 09 23:57:03 ..... finished mapping
+May 09 23:57:04 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19141_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19141_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19141 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19141.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 09 23:57:05 ..... started STAR run
+May 09 23:57:05 ..... loading genome
+May 09 23:57:34 ..... loading variations VCF
+May 09 23:57:38 ..... started 1st pass mapping
+May 09 23:58:27 ..... finished 1st pass mapping
+May 09 23:58:28 ..... inserting junctions into the genome indices
+May 09 23:59:51 ..... started mapping
+May 10 00:02:51 ..... finished mapping
+May 10 00:02:52 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19108_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19108_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19108 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19108.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 10 00:02:53 ..... started STAR run
+May 10 00:02:53 ..... loading genome
+May 10 00:03:20 ..... loading variations VCF
+May 10 00:03:24 ..... started 1st pass mapping
+May 10 00:04:56 ..... finished 1st pass mapping
+May 10 00:04:57 ..... inserting junctions into the genome indices
+May 10 00:06:13 ..... started mapping
+May 10 00:10:05 ..... finished mapping
+May 10 00:10:07 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19209_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19209_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19209 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19209.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 10 00:10:07 ..... started STAR run
+May 10 00:10:07 ..... loading genome
+May 10 00:10:37 ..... loading variations VCF
+May 10 00:10:40 ..... started 1st pass mapping
+May 10 00:11:25 ..... finished 1st pass mapping
+May 10 00:11:26 ..... inserting junctions into the genome indices
+May 10 00:12:49 ..... started mapping
+May 10 00:15:35 ..... finished mapping
+May 10 00:15:36 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18489_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18489_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA18489 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA18489.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 10 00:15:36 ..... started STAR run
+May 10 00:15:36 ..... loading genome
+May 10 00:16:06 ..... loading variations VCF
+May 10 00:16:10 ..... started 1st pass mapping
+May 10 00:16:46 ..... finished 1st pass mapping
+May 10 00:16:47 ..... inserting junctions into the genome indices
+May 10 00:18:01 ..... started mapping
+May 10 00:20:11 ..... finished mapping
+May 10 00:20:12 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19247_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19247_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19247 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19247.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 10 00:20:13 ..... started STAR run
+May 10 00:20:13 ..... loading genome
+May 10 00:20:41 ..... loading variations VCF
+May 10 00:20:45 ..... started 1st pass mapping
+May 10 00:21:33 ..... finished 1st pass mapping
+May 10 00:21:34 ..... inserting junctions into the genome indices
+May 10 00:22:56 ..... started mapping
+May 10 00:25:48 ..... finished mapping
+May 10 00:25:49 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19248_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19248_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19248 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19248.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 10 00:25:49 ..... started STAR run
+May 10 00:25:50 ..... loading genome
+May 10 00:26:18 ..... loading variations VCF
+May 10 00:26:22 ..... started 1st pass mapping
+May 10 00:27:05 ..... finished 1st pass mapping
+May 10 00:27:06 ..... inserting junctions into the genome indices
+May 10 00:28:20 ..... started mapping
+May 10 00:30:58 ..... finished mapping
+May 10 00:30:59 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19213_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19213_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19213 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19213.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 10 00:30:59 ..... started STAR run
+May 10 00:30:59 ..... loading genome
+May 10 00:31:28 ..... loading variations VCF
+May 10 00:31:32 ..... started 1st pass mapping
+May 10 00:32:47 ..... finished 1st pass mapping
+May 10 00:32:48 ..... inserting junctions into the genome indices
+May 10 00:34:10 ..... started mapping
+May 10 00:37:15 ..... finished mapping
+May 10 00:37:16 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19093_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19093_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19093 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19093.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 10 00:37:16 ..... started STAR run
+May 10 00:37:17 ..... loading genome
+May 10 00:37:44 ..... loading variations VCF
+May 10 00:37:48 ..... started 1st pass mapping
+May 10 00:38:29 ..... finished 1st pass mapping
+May 10 00:38:30 ..... inserting junctions into the genome indices
+May 10 00:39:44 ..... started mapping
+May 10 00:42:22 ..... finished mapping
+May 10 00:42:23 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19118_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19118_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19118 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19118.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 10 00:42:23 ..... started STAR run
+May 10 00:42:24 ..... loading genome
+May 10 00:42:53 ..... loading variations VCF
+May 10 00:42:57 ..... started 1st pass mapping
+May 10 00:43:48 ..... finished 1st pass mapping
+May 10 00:43:49 ..... inserting junctions into the genome indices
+May 10 00:45:12 ..... started mapping
+May 10 00:48:00 ..... finished mapping
+May 10 00:48:01 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19214_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19214_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19214 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19214.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 10 00:48:01 ..... started STAR run
+May 10 00:48:01 ..... loading genome
+May 10 00:48:29 ..... loading variations VCF
+May 10 00:48:33 ..... started 1st pass mapping
+May 10 00:49:26 ..... finished 1st pass mapping
+May 10 00:49:27 ..... inserting junctions into the genome indices
+May 10 00:50:43 ..... started mapping
+May 10 00:54:10 ..... finished mapping
+May 10 00:54:11 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18907_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18907_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA18907 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA18907.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 10 00:54:12 ..... started STAR run
+May 10 00:54:12 ..... loading genome
+May 10 00:54:40 ..... loading variations VCF
+May 10 00:54:43 ..... started 1st pass mapping
+May 10 00:55:28 ..... finished 1st pass mapping
+May 10 00:55:29 ..... inserting junctions into the genome indices
+May 10 00:56:51 ..... started mapping
+May 10 00:59:38 ..... finished mapping
+May 10 00:59:39 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19223_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19223_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19223 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19223.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 10 00:59:40 ..... started STAR run
+May 10 00:59:40 ..... loading genome
+May 10 01:00:09 ..... loading variations VCF
+May 10 01:00:13 ..... started 1st pass mapping
+May 10 01:00:59 ..... finished 1st pass mapping
+May 10 01:01:00 ..... inserting junctions into the genome indices
+May 10 01:02:16 ..... started mapping
+May 10 01:05:07 ..... finished mapping
+May 10 01:05:08 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18510_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18510_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA18510 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA18510.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 10 01:05:09 ..... started STAR run
+May 10 01:05:09 ..... loading genome
+May 10 01:05:41 ..... loading variations VCF
+May 10 01:05:45 ..... started 1st pass mapping
+May 10 01:06:43 ..... finished 1st pass mapping
+May 10 01:06:44 ..... inserting junctions into the genome indices
+May 10 01:08:08 ..... started mapping
+May 10 01:11:36 ..... finished mapping
+May 10 01:11:37 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19153_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19153_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19153 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19153.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 10 01:11:38 ..... started STAR run
+May 10 01:11:38 ..... loading genome
+May 10 01:12:05 ..... loading variations VCF
+May 10 01:12:09 ..... started 1st pass mapping
+May 10 01:13:51 ..... finished 1st pass mapping
+May 10 01:13:52 ..... inserting junctions into the genome indices
+May 10 01:15:12 ..... started mapping
+May 10 01:20:08 ..... finished mapping
+May 10 01:20:09 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18933_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18933_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA18933 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA18933.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 10 01:20:10 ..... started STAR run
+May 10 01:20:10 ..... loading genome
+May 10 01:20:39 ..... loading variations VCF
+May 10 01:20:43 ..... started 1st pass mapping
+May 10 01:21:52 ..... finished 1st pass mapping
+May 10 01:21:53 ..... inserting junctions into the genome indices
+May 10 01:23:16 ..... started mapping
+May 10 01:27:11 ..... finished mapping
+May 10 01:27:12 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18867_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18867_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA18867 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA18867.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 10 01:27:13 ..... started STAR run
+May 10 01:27:13 ..... loading genome
+May 10 01:27:40 ..... loading variations VCF
+May 10 01:27:44 ..... started 1st pass mapping
+May 10 01:29:14 ..... finished 1st pass mapping
+May 10 01:29:15 ..... inserting junctions into the genome indices
+May 10 01:30:33 ..... started mapping
+May 10 01:35:10 ..... finished mapping
+May 10 01:35:11 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19147_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19147_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19147 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19147.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 10 01:35:11 ..... started STAR run
+May 10 01:35:12 ..... loading genome
+May 10 01:35:41 ..... loading variations VCF
+May 10 01:35:44 ..... started 1st pass mapping
+May 10 01:37:33 ..... finished 1st pass mapping
+May 10 01:37:34 ..... inserting junctions into the genome indices
+May 10 01:39:01 ..... started mapping
+May 10 01:46:41 ..... finished mapping
+May 10 01:46:42 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19149_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19149_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19149 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19149.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 10 01:46:43 ..... started STAR run
+May 10 01:46:43 ..... loading genome
+May 10 01:47:11 ..... loading variations VCF
+May 10 01:47:15 ..... started 1st pass mapping
+May 10 01:48:28 ..... finished 1st pass mapping
+May 10 01:48:29 ..... inserting junctions into the genome indices
+May 10 01:49:48 ..... started mapping
+May 10 01:54:04 ..... finished mapping
+May 10 01:54:05 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19184_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19184_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19184 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19184.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 10 01:54:05 ..... started STAR run
+May 10 01:54:05 ..... loading genome
+May 10 01:54:36 ..... loading variations VCF
+May 10 01:54:40 ..... started 1st pass mapping
+May 10 01:56:17 ..... finished 1st pass mapping
+May 10 01:56:19 ..... inserting junctions into the genome indices
+May 10 01:57:45 ..... started mapping
+May 10 02:03:56 ..... finished mapping
+May 10 02:03:57 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18519_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18519_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA18519 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA18519.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 10 02:03:58 ..... started STAR run
+May 10 02:03:58 ..... loading genome
+May 10 02:04:27 ..... loading variations VCF
+May 10 02:04:31 ..... started 1st pass mapping
+May 10 02:05:35 ..... finished 1st pass mapping
+May 10 02:05:36 ..... inserting junctions into the genome indices
+May 10 02:06:55 ..... started mapping
+May 10 02:10:53 ..... finished mapping
+May 10 02:11:01 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18917_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18917_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA18917 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA18917.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 10 02:11:01 ..... started STAR run
+May 10 02:11:01 ..... loading genome
+May 10 02:11:32 ..... loading variations VCF
+May 10 02:11:36 ..... started 1st pass mapping
+May 10 02:12:49 ..... finished 1st pass mapping
+May 10 02:12:49 ..... inserting junctions into the genome indices
+May 10 02:14:14 ..... started mapping
+May 10 02:18:39 ..... finished mapping
+May 10 02:18:40 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19204_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19204_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19204 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19204.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 10 02:18:41 ..... started STAR run
+May 10 02:18:41 ..... loading genome
+May 10 02:19:10 ..... loading variations VCF
+May 10 02:19:14 ..... started 1st pass mapping
+May 10 02:20:32 ..... finished 1st pass mapping
+May 10 02:20:33 ..... inserting junctions into the genome indices
+May 10 02:21:51 ..... started mapping
+May 10 02:25:45 ..... finished mapping
+May 10 02:25:46 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19137_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19137_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19137 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19137.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 10 02:25:47 ..... started STAR run
+May 10 02:25:47 ..... loading genome
+May 10 02:26:16 ..... loading variations VCF
+May 10 02:26:20 ..... started 1st pass mapping
+May 10 02:27:37 ..... finished 1st pass mapping
+May 10 02:27:38 ..... inserting junctions into the genome indices
+May 10 02:29:03 ..... started mapping
+May 10 02:33:22 ..... finished mapping
+May 10 02:33:23 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18508_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18508_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA18508 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA18508.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 10 02:33:24 ..... started STAR run
+May 10 02:33:25 ..... loading genome
+May 10 02:33:53 ..... loading variations VCF
+May 10 02:33:57 ..... started 1st pass mapping
+May 10 02:35:08 ..... finished 1st pass mapping
+May 10 02:35:09 ..... inserting junctions into the genome indices
+May 10 02:36:25 ..... started mapping
+May 10 02:40:42 ..... finished mapping
+May 10 02:40:43 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19102_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19102_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19102 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19102.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 10 02:40:43 ..... started STAR run
+May 10 02:40:44 ..... loading genome
+May 10 02:41:11 ..... loading variations VCF
+May 10 02:41:15 ..... started 1st pass mapping
+May 10 02:42:23 ..... finished 1st pass mapping
+May 10 02:42:24 ..... inserting junctions into the genome indices
+May 10 02:43:48 ..... started mapping
+May 10 02:47:39 ..... finished mapping
+May 10 02:47:40 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19092_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19092_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19092 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19092.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 10 02:47:41 ..... started STAR run
+May 10 02:47:41 ..... loading genome
+May 10 02:48:09 ..... loading variations VCF
+May 10 02:48:13 ..... started 1st pass mapping
+May 10 02:49:38 ..... finished 1st pass mapping
+May 10 02:49:39 ..... inserting junctions into the genome indices
+May 10 02:51:00 ..... started mapping
+May 10 02:56:22 ..... finished mapping
+May 10 02:56:23 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19117_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19117_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19117 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19117.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 10 02:56:23 ..... started STAR run
+May 10 02:56:24 ..... loading genome
+May 10 02:56:53 ..... loading variations VCF
+May 10 02:56:57 ..... started 1st pass mapping
+May 10 02:58:19 ..... finished 1st pass mapping
+May 10 02:58:20 ..... inserting junctions into the genome indices
+May 10 02:59:46 ..... started mapping
+May 10 03:05:15 ..... finished mapping
+May 10 03:05:16 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19098_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19098_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19098 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19098.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 10 03:05:17 ..... started STAR run
+May 10 03:05:17 ..... loading genome
+May 10 03:05:46 ..... loading variations VCF
+May 10 03:05:49 ..... started 1st pass mapping
+May 10 03:07:18 ..... finished 1st pass mapping
+May 10 03:07:18 ..... inserting junctions into the genome indices
+May 10 03:08:40 ..... started mapping
+May 10 03:15:15 ..... finished mapping
+May 10 03:15:17 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19235_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19235_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19235 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19235.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 10 03:15:17 ..... started STAR run
+May 10 03:15:17 ..... loading genome
+May 10 03:15:46 ..... loading variations VCF
+May 10 03:15:50 ..... started 1st pass mapping
+May 10 03:17:27 ..... finished 1st pass mapping
+May 10 03:17:29 ..... inserting junctions into the genome indices
+May 10 03:18:55 ..... started mapping
+May 10 03:24:41 ..... finished mapping
+May 10 03:24:42 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18520_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18520_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA18520 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA18520.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 10 03:24:42 ..... started STAR run
+May 10 03:24:42 ..... loading genome
+May 10 03:25:11 ..... loading variations VCF
+May 10 03:25:15 ..... started 1st pass mapping
+May 10 03:26:28 ..... finished 1st pass mapping
+May 10 03:26:29 ..... inserting junctions into the genome indices
+May 10 03:27:47 ..... started mapping
+May 10 03:32:05 ..... finished mapping
+May 10 03:32:06 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19171_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19171_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19171 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19171.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 10 03:32:07 ..... started STAR run
+May 10 03:32:07 ..... loading genome
+May 10 03:32:36 ..... loading variations VCF
+May 10 03:32:40 ..... started 1st pass mapping
+May 10 03:34:05 ..... finished 1st pass mapping
+May 10 03:34:06 ..... inserting junctions into the genome indices
+May 10 03:35:32 ..... started mapping
+May 10 03:41:02 ..... finished mapping
+May 10 03:41:03 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18499_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA18499_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA18499 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA18499.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 10 03:41:04 ..... started STAR run
+May 10 03:41:04 ..... loading genome
+May 10 03:41:32 ..... loading variations VCF
+May 10 03:41:36 ..... started 1st pass mapping
+May 10 03:42:56 ..... finished 1st pass mapping
+May 10 03:42:57 ..... inserting junctions into the genome indices
+May 10 03:44:20 ..... started mapping
+May 10 03:49:27 ..... finished mapping
+May 10 03:49:28 ..... finished successfully
+	STAR --runMode alignReads --runThreadN 28 --genomeDir /scratch/vasccell/cs806/exprPhenoData/GRCh38_STARindex --readFilesIn /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19201_1.fastq.gz /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/NA19201_2.fastq.gz --readFilesCommand zcat --sjdbOverhang 75 --outFileNamePrefix /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/waspMappedReads2/NA19201 --twopassMode Basic --quantMode TranscriptomeSAM GeneCounts --outSAMunmapped Within --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --outSAMtype None --outFilterType BySJout --limitSjdbInsertNsj 2000000 –waspOutputMode --varVCFfile /scratch/vasccell/cs806/geuvadis/genoFiles/splitYriGeno/NA19201.vcf
+	STAR version: 2.7.10b   compiled: 2023-09-07T16:18:26+01:00 alice-login01:/tmp/root/spack-stage/spack-stage-star-2.7.10b-m3zkpicxc646uuyr27srekzcr7f2dnv4/spack-src/source
+May 10 03:49:28 ..... started STAR run
+May 10 03:49:28 ..... loading genome
+May 10 03:49:59 ..... loading variations VCF
+May 10 03:50:02 ..... started 1st pass mapping
+May 10 03:51:18 ..... finished 1st pass mapping
+May 10 03:51:19 ..... inserting junctions into the genome indices
+May 10 03:52:44 ..... started mapping
+May 10 03:57:27 ..... finished mapping
+May 10 03:57:28 ..... finished successfully
+Fri May 10 03:57:31 AM BST 2024

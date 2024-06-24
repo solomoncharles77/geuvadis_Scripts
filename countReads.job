@@ -1,0 +1,23 @@
+#!/bin/bash
+
+#SBATCH --job-name=countReadsYRI
+#SBATCH --account=vasccell
+#SBATCH --nodes=1
+#SBATCH --cpus-per-task=28
+#SBATCH --mem=80G
+#SBATCH --time=12:00:00
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --mail-user=cs806@leicester.ac.uk
+#SBATCH --output=%x.out
+#SBATCH --error=%x.err
+#SBATCH --export=NONE
+
+cd $SLURM_SUBMIT_DIR
+
+module load R
+
+#Rscript /lustre/alice3/scratch/vasccell/cs806/geuvadis/geuvadis_Scripts/countReads.R
+
+Rscript /lustre/alice3/scratch/vasccell/cs806/geuvadis/geuvadis_Scripts/countExonIntronYRI.R
+
+#Rscript /lustre/alice3/scratch/vasccell/cs806/geuvadis/geuvadis_Scripts/countExonIntronEUR.R

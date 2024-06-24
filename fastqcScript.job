@@ -1,0 +1,31 @@
+#!/bin/bash
+
+#SBATCH --job-name=QC
+#SBATCH --account=vasccell
+#SBATCH --nodes=1
+#SBATCH --cpus-per-task=14
+#SBATCH --mem=20G
+#SBATCH --time=48:00:00
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --mail-user=cs806@leicester.ac.uk
+#SBATCH --output=%x.out
+#SBATCH --error=%x.err
+#SBATCH --export=NONE
+
+cd $SLURM_SUBMIT_DIR
+
+module load fastqc/0.12.1-hkgpcde  
+
+
+ls /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads  > /lustre/alice3/scratch/vasccell/cs806/geuvadis/geuvadis_Scripts/allSeq.txt
+
+
+while IFS= read -r F
+do
+fastqc /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/$F -t 14 -o /lustre/alice3/scratch/vasccell/cs806/geuvadis/fastqcResults
+
+done < /lustre/alice3/scratch/vasccell/cs806/geuvadis/geuvadis_Scripts/allSeq.txt
+
+source ~/miniconda3/bin/activate mypython311
+multiqc /lustre/alice3/scratch/vasccell/cs806/geuvadis/fastqcResults -f --interactive -o /lustre/alice3/scratch/vasccell/cs806/geuvadis/fastqcResults
+

@@ -1,0 +1,10 @@
+
+  /// MultiQC 🔍 | v1.16
+
+|           multiqc | MultiQC Version v1.21 now available!
+|           multiqc | Search path : /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads
+|         searching | ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 1793/1793  
+|              star | Found 326 reports and 163 gene count files
+|           multiqc | Report      : ../mappedReads/multiqc_report.html
+|           multiqc | Data        : ../mappedReads/multiqc_data
+|           multiqc | MultiQC complete

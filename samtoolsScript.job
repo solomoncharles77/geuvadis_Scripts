@@ -1,0 +1,29 @@
+#!/bin/bash
+
+#SBATCH --job-name=samtools
+#SBATCH --account=vasccell
+#SBATCH --nodes=1
+#SBATCH --cpus-per-task=28
+#SBATCH --mem=20G
+#SBATCH --time=48:00:00
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --mail-user=cs806@leicester.ac.uk
+#SBATCH --output=%x.out
+#SBATCH --error=%x.err
+#SBATCH --export=NONE
+
+cd $SLURM_SUBMIT_DIR
+
+module load samtools/1.17-wenuvv5
+
+while IFS= read -r F
+do
+
+  S1="${F%Aligned.out.bam}"
+  
+  samtools sort /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/${F} -@ 28 -o /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/${S1}.sorted.bam &&
+  samtools index /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/${S1}.sorted.bam -@ 28
+  samtools view -T /scratch/vasccell/cs806/exprPhenoData/Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa \
+  -C -o /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/cramFiles/${S1}.sorted.bam.cram /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/${S1}.sorted.bam
+
+done < /lustre/alice3/scratch/vasccell/cs806/geuvadis/geuvadis_Scripts/allSam_leftOver.txt

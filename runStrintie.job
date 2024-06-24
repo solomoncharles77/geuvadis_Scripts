@@ -1,0 +1,50 @@
+#!/bin/bash
+
+#SBATCH --job-name=stringtie
+#SBATCH --account=vasccell
+#SBATCH --nodes=1
+#SBATCH --cpus-per-task=28
+#SBATCH --mem=40G
+#SBATCH --time=12:00:00
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --mail-user=cs806@leicester.ac.uk
+#SBATCH --output=%x.out
+#SBATCH --error=%x.err
+#SBATCH --export=NONE
+
+cd $SLURM_SUBMIT_DIR
+
+# Load required modules
+module load stringtie/2.2.1-qxi2t4h
+
+while IFS= read -r F
+do
+
+stringtie /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/${F}.sorted.bam -l ${F} -p 14 -G /scratch/vasccell/cs806/exprPhenoData/Homo_sapiens.GRCh38.100.gtf -o /lustre/alice3/scratch/vasccell/cs806/geuvadis/stringtieAssembly/${F}.gtf
+echo ${F} 
+
+done < /lustre/alice3/scratch/vasccell/cs806/geuvadis/geuvadis_Scripts/allSam.txt 
+  
+  echo "STRINGTIE ASSEMBLY DONE!"
+
+find /lustre/alice3/scratch/vasccell/cs806/geuvadis/stringtieAssembly  -type f | sort >  /lustre/alice3/scratch/vasccell/cs806/geuvadis/geuvadis_Scripts/stringtieMergelist.txt && 
+  
+###########################################################################################################################################################################################################
+# Read Merging
+stringtie --merge -p 14 -G /scratch/vasccell/cs806/exprPhenoData/Homo_sapiens.GRCh38.100.gtf -o /lustre/alice3/scratch/vasccell/cs806/geuvadis/stringtieAssembly/all_stringtie_merged.gtf /lustre/alice3/scratch/vasccell/cs806/geuvadis/geuvadis_Scripts/stringtieMergelist.txt && 
+  
+echo "STRINGTIE MERGING DONE"
+
+# #########################################################################################################################################################################################################
+# # Read Quantification
+# # run stringtie for each sample
+# while IFS= read -r F
+# do
+# 
+#   stringtie -e -B -p 14 -G /scratch/vasccell/cs806/exprPhenoData/Homo_sapiens.GRCh38.100.gtf -o /lustre/alice3/scratch/vasccell/cs806/geuvadis/stringtieAssembly/ballgown/${F}/${F}.gtf /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/${F}.sorted.bam
+#   echo ${F} 
+# done /lustre/alice3/scratch/vasccell/cs806/geuvadis/geuvadis_Scripts/allSam.txt
+# 
+# echo "STRINGTIE QUANTIFICATION DONE!"
+# 
+# #python prepDE.py

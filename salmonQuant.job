@@ -1,0 +1,58 @@
+#!/bin/bash
+
+#SBATCH --job-name=salmonQuant
+#SBATCH --account=vasccell
+#SBATCH --nodes=1
+#SBATCH --cpus-per-task=14
+#SBATCH --mem=40G
+#SBATCH --time=24:00:00
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --mail-user=cs806@leicester.ac.uk
+#SBATCH --output=%x.out
+#SBATCH --error=%x.err
+#SBATCH --export=NONE
+
+cd $SLURM_SUBMIT_DIR
+
+module load salmon/1.10.2-5pennjh
+module load R
+
+# Make decoy
+# grep "^>" <(gunzip -c GRCm38.primary_assembly.genome.fa.gz) | cut -d " " -f 1 > decoys.txt
+# sed -i.bak -e 's/>//g' decoys.txt
+# cat gencode.vM23.transcripts.fa.gz GRCm38.primary_assembly.genome.fa.gz > gentrome.fa.gz
+
+# Index with decoy
+# salmon index -t gentrome.fa.gz -d decoys.txt -p 12 -i salmon_index --gencode
+
+
+#salmon index -t /scratch/vasccell/cs806/exprPhenoData/gencode.v44.transcripts.fa.gz -i /scratch/vasccell/cs806/exprPhenoData/gencode.v44.transcripts_index 
+salmon index -t /scratch/vasccell/cs806/exprPhenoData/Homo_sapiens.GRCh38.cdna.all.fa.gz -i /scratch/vasccell/cs806/exprPhenoData/Homo_sapiens.GRCh38.cdna.all_index
+
+# Confirm the fastq extension is correct.
+find /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads -maxdepth 1 -type f -name "*_1.fastq.gz" -exec basename {} \; | sed 's/_1.fastq.gz//g' > /lustre/alice3/scratch/vasccell/cs806/geuvadis/geuvadis_Scripts/allSeq3.txt
+
+##### Quant with GENCODE
+# while IFS= read -r F
+# do
+#   echo "Processing $F"
+#   R1=${F}_1.fastq.gz
+#   R2=${F}_2.fastq.gz
+#   salmon quant -i /scratch/vasccell/cs806/exprPhenoData/gencode.v44.transcripts_index -l A -1 /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/$R1 -2 /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/$R2 -p 14 --validateMappings -o /lustre/alice3/scratch/vasccell/cs806/geuvadis/salmonQuant/$F
+#   
+# done < /lustre/alice3/scratch/vasccell/cs806/geuvadis/geuvadis_Scripts/allSeq3.txt
+
+##### Quant with ENSEMBL
+while IFS= read -r F
+do
+  echo "Processing $F"
+  R1=${F}_1.fastq.gz
+  R2=${F}_2.fastq.gz
+  salmon quant -i /scratch/vasccell/cs806/exprPhenoData/Homo_sapiens.GRCh38.cdna.all_index -l A -1 /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/$R1 -2 /lustre/alice3/scratch/vasccell/cs806/geuvadis/rawReads/$R2 -p 14 --validateMappings -o /lustre/alice3/scratch/vasccell/cs806/geuvadis/salmonQuant/$F
+  
+done < /lustre/alice3/scratch/vasccell/cs806/geuvadis/geuvadis_Scripts/allSeq3.txt
+
+Rscript /lustre/alice3/scratch/vasccell/cs806/geuvadis/geuvadis_Scripts/salmonQuant_txi.R
+
+source ~/miniconda3/bin/activate mypython311
+multiqc /lustre/alice3/scratch/vasccell/cs806/geuvadis/salmonQuant -f --interactive -o /lustre/alice3/scratch/vasccell/cs806/geuvadis/salmonQuant

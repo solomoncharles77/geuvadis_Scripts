@@ -1,0 +1,4 @@
+Error in h(simpleError(msg, call)) : 
+  error in evaluating the argument 'x' in selecting a method for function 'gsub': error in evaluating the argument 'x' in selecting a method for function 'colnames': object 'exonCountDF' not found
+Calls: gsub ... colnames -> .handleSimpleError -> h -> .handleSimpleError -> h
+Execution halted

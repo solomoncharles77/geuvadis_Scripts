@@ -1,0 +1,640 @@
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+       Rsubread 2.14.2
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 86 BAM files                                     ||
+||                                                                            ||
+||                           ERR204820Aligned.out.sam.sorted.bam              ||
+||                           ERR205021Aligned.out.sam.sorted.bam              ||
+||                           ERR188184Aligned.out.sam.sorted.bam              ||
+||                           ERR188139Aligned.out.sam.sorted.bam              ||
+||                           ERR204963Aligned.out.sam.sorted.bam              ||
+||                           ERR204851Aligned.out.sam.sorted.bam              ||
+||                           ERR204948Aligned.out.sam.sorted.bam              ||
+||                           ERR204956Aligned.out.sam.sorted.bam              ||
+||                           ERR205013Aligned.out.sam.sorted.bam              ||
+||                           ERR204912Aligned.out.sam.sorted.bam              ||
+||                           ERR204829Aligned.out.sam.sorted.bam              ||
+||                           ERR204994Aligned.out.sam.sorted.bam              ||
+||                           ERR204837Aligned.out.sam.sorted.bam              ||
+||                           ERR204866Aligned.out.sam.sorted.bam              ||
+||                           ERR204878Aligned.out.sam.sorted.bam              ||
+||                           ERR204961Aligned.out.sam.sorted.bam              ||
+||                           ERR204825Aligned.out.sam.sorted.bam              ||
+||                           ERR204922Aligned.out.sam.sorted.bam              ||
+||                           ERR205018Aligned.out.sam.sorted.bam              ||
+||                           ERR204981Aligned.out.sam.sorted.bam              ||
+||                           ERR204966Aligned.out.sam.sorted.bam              ||
+||                           ERR204919Aligned.out.sam.sorted.bam              ||
+||                           ERR188200Aligned.out.sam.sorted.bam              ||
+||                           ERR188451Aligned.out.sam.sorted.bam              ||
+||                           ERR188243Aligned.out.sam.sorted.bam              ||
+||                           ERR188298Aligned.out.sam.sorted.bam              ||
+||                           ERR204988Aligned.out.sam.sorted.bam              ||
+||                           ERR204835Aligned.out.sam.sorted.bam              ||
+||                           ERR204996Aligned.out.sam.sorted.bam              ||
+||                           ERR204971Aligned.out.sam.sorted.bam              ||
+||                           ERR188096Aligned.out.sam.sorted.bam              ||
+||                           ERR204917Aligned.out.sam.sorted.bam              ||
+||                           ERR204888Aligned.out.sam.sorted.bam              ||
+||                           ERR204896Aligned.out.sam.sorted.bam              ||
+||                           ERR205017Aligned.out.sam.sorted.bam              ||
+||                           ERR205009Aligned.out.sam.sorted.bam              ||
+||                           ERR204952Aligned.out.sam.sorted.bam              ||
+||                           ERR204997Aligned.out.sam.sorted.bam              ||
+||                           ERR204933Aligned.out.sam.sorted.bam              ||
+||                           ERR188367Aligned.out.sam.sorted.bam              ||
+||                           ERR204877Aligned.out.sam.sorted.bam              ||
+||                           ERR204970Aligned.out.sam.sorted.bam              ||
+||                           ERR188449Aligned.out.sam.sorted.bam              ||
+||                           ERR204852Aligned.out.sam.sorted.bam              ||
+||                           ERR204916Aligned.out.sam.sorted.bam              ||
+||                           ERR188055Aligned.out.sam.sorted.bam              ||
+||                           ERR204969Aligned.out.sam.sorted.bam              ||
+||                           ERR204889Aligned.out.sam.sorted.bam              ||
+||                           ERR204987Aligned.out.sam.sorted.bam              ||
+||                           ERR204880Aligned.out.sam.sorted.bam              ||
+||                           ERR204923Aligned.out.sam.sorted.bam              ||
+||                           ERR188390Aligned.out.sam.sorted.bam              ||
+||                           ERR204845Aligned.out.sam.sorted.bam              ||
+||                           ERR204942Aligned.out.sam.sorted.bam              ||
+||                           ERR205007Aligned.out.sam.sorted.bam              ||
+||                           ERR205019Aligned.out.sam.sorted.bam              ||
+||                           ERR188042Aligned.out.sam.sorted.bam              ||
+||                           ERR204980Aligned.out.sam.sorted.bam              ||
+||                           ERR204906Aligned.out.sam.sorted.bam              ||
+||                           ERR205000Aligned.out.sam.sorted.bam              ||
+||                           ERR204842Aligned.out.sam.sorted.bam              ||
+||                           ERR204949Aligned.out.sam.sorted.bam              ||
+||                           ERR204913Aligned.out.sam.sorted.bam              ||
+||                           ERR204849Aligned.out.sam.sorted.bam              ||
+||                           ERR204892Aligned.out.sam.sorted.bam              ||
+||                           ERR188072Aligned.out.sam.sorted.bam              ||
+||                           ERR204995Aligned.out.sam.sorted.bam              ||
+||                           ERR204828Aligned.out.sam.sorted.bam              ||
+||                           ERR188128Aligned.out.sam.sorted.bam              ||
+||                           ERR188365Aligned.out.sam.sorted.bam              ||
+||                           ERR204821Aligned.out.sam.sorted.bam              ||
+||                           ERR205020Aligned.out.sam.sorted.bam              ||
+||                           ERR188162Aligned.out.sam.sorted.bam              ||
+||                           ERR204938Aligned.out.sam.sorted.bam              ||
+||                           ERR188275Aligned.out.sam.sorted.bam              ||
+||                           ERR204904Aligned.out.sam.sorted.bam              ||
+||                           ERR204959Aligned.out.sam.sorted.bam              ||
+||                           ERR188103Aligned.out.sam.sorted.bam              ||
+||                           ERR188085Aligned.out.sam.sorted.bam              ||
+||                           ERR188460Aligned.out.sam.sorted.bam              ||
+||                           ERR188165Aligned.out.sam.sorted.bam              ||
+||                           ERR204985Aligned.out.sam.sorted.bam              ||
+||                           ERR204940Aligned.out.sam.sorted.bam              ||
+||                           ERR204859Aligned.out.sam.sorted.bam              ||
+||                           ERR204847Aligned.out.sam.sorted.bam              ||
+||                           ERR204903Aligned.out.sam.sorted.bam              ||
+||                                                                            ||
+||              Paired-end : yes                                              ||
+||        Count read pairs : yes                                              ||
+||              Annotation : Homo_sapiens.GRCh38.100_introns10.gtf (GTF)      ||
+||      Dir for temp files : .                                                ||
+||                 Threads : 28                                               ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : counted                                          ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Homo_sapiens.GRCh38.100_introns10.gtf ...             ||
+||    Features : 303389                                                       ||
+||    Meta-features : 37573                                                   ||
+||    Chromosomes/contigs : 35                                                ||
+||                                                                            ||
+|| Process BAM file ERR204820Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 27012322                                             ||
+||    Successfully assigned alignments : 6439210 (23.8%)                      ||
+||    Running time : 1.39 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR205021Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 30866791                                             ||
+||    Successfully assigned alignments : 7663854 (24.8%)                      ||
+||    Running time : 5.57 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR188184Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 49564694                                             ||
+||    Successfully assigned alignments : 6889858 (13.9%)                      ||
+||    Running time : 2.12 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR188139Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 35268213                                             ||
+||    Successfully assigned alignments : 7006945 (19.9%)                      ||
+||    Running time : 2.64 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204963Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 25301953                                             ||
+||    Successfully assigned alignments : 6374853 (25.2%)                      ||
+||    Running time : 3.57 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204851Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 31241918                                             ||
+||    Successfully assigned alignments : 7774432 (24.9%)                      ||
+||    Running time : 7.11 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204948Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 25974548                                             ||
+||    Successfully assigned alignments : 5556468 (21.4%)                      ||
+||    Running time : 2.38 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204956Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 25751608                                             ||
+||    Successfully assigned alignments : 5780287 (22.4%)                      ||
+||    Running time : 2.03 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR205013Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 30731055                                             ||
+||    Successfully assigned alignments : 6217241 (20.2%)                      ||
+||    Running time : 4.05 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204912Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 17224229                                             ||
+||    Successfully assigned alignments : 3793666 (22.0%)                      ||
+||    Running time : 0.91 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204829Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 23007163                                             ||
+||    Successfully assigned alignments : 6510124 (28.3%)                      ||
+||    Running time : 3.99 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204994Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 24708231                                             ||
+||    Successfully assigned alignments : 5870668 (23.8%)                      ||
+||    Running time : 3.42 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204837Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 19760058                                             ||
+||    Successfully assigned alignments : 4949341 (25.0%)                      ||
+||    Running time : 1.99 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204866Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 27112851                                             ||
+||    Successfully assigned alignments : 7171501 (26.5%)                      ||
+||    Running time : 2.74 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204878Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 37045805                                             ||
+||    Successfully assigned alignments : 7723685 (20.8%)                      ||
+||    Running time : 5.33 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204961Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 20499225                                             ||
+||    Successfully assigned alignments : 4444676 (21.7%)                      ||
+||    Running time : 1.21 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204825Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 27697298                                             ||
+||    Successfully assigned alignments : 6715681 (24.2%)                      ||
+||    Running time : 5.37 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204922Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 24018909                                             ||
+||    Successfully assigned alignments : 5291127 (22.0%)                      ||
+||    Running time : 0.86 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR205018Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 37003242                                             ||
+||    Successfully assigned alignments : 8971014 (24.2%)                      ||
+||    Running time : 6.70 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204981Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 23550954                                             ||
+||    Successfully assigned alignments : 4273404 (18.1%)                      ||
+||    Running time : 1.13 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204966Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 27263497                                             ||
+||    Successfully assigned alignments : 6152180 (22.6%)                      ||
+||    Running time : 2.61 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204919Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 27064434                                             ||
+||    Successfully assigned alignments : 6184144 (22.8%)                      ||
+||    Running time : 4.67 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR188200Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 32395926                                             ||
+||    Successfully assigned alignments : 6415104 (19.8%)                      ||
+||    Running time : 2.23 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR188451Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 34263094                                             ||
+||    Successfully assigned alignments : 6837002 (20.0%)                      ||
+||    Running time : 2.35 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR188243Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 43414215                                             ||
+||    Successfully assigned alignments : 6333926 (14.6%)                      ||
+||    Running time : 0.83 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR188298Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 35583472                                             ||
+||    Successfully assigned alignments : 6203315 (17.4%)                      ||
+||    Running time : 2.17 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204988Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 26563768                                             ||
+||    Successfully assigned alignments : 5872603 (22.1%)                      ||
+||    Running time : 3.40 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204835Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 18914052                                             ||
+||    Successfully assigned alignments : 3987042 (21.1%)                      ||
+||    Running time : 0.90 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204996Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 17620032                                             ||
+||    Successfully assigned alignments : 3941869 (22.4%)                      ||
+||    Running time : 0.20 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204971Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 21735571                                             ||
+||    Successfully assigned alignments : 4877377 (22.4%)                      ||
+||    Running time : 1.47 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR188096Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 34629024                                             ||
+||    Successfully assigned alignments : 7327214 (21.2%)                      ||
+||    Running time : 4.59 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204917Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 25945899                                             ||
+||    Successfully assigned alignments : 5815758 (22.4%)                      ||
+||    Running time : 0.90 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204888Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 29214506                                             ||
+||    Successfully assigned alignments : 6147480 (21.0%)                      ||
+||    Running time : 1.87 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204896Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 26276156                                             ||
+||    Successfully assigned alignments : 6416208 (24.4%)                      ||
+||    Running time : 4.03 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR205017Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 25671594                                             ||
+||    Successfully assigned alignments : 6376083 (24.8%)                      ||
+||    Running time : 3.18 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR205009Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 29788696                                             ||
+||    Successfully assigned alignments : 4147641 (13.9%)                      ||
+||    Running time : 0.17 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204952Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 24779951                                             ||
+||    Successfully assigned alignments : 5872856 (23.7%)                      ||
+||    Running time : 2.26 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204997Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 28975923                                             ||
+||    Successfully assigned alignments : 6687927 (23.1%)                      ||
+||    Running time : 3.25 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204933Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 24213404                                             ||
+||    Successfully assigned alignments : 6564684 (27.1%)                      ||
+||    Running time : 1.77 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR188367Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 32183805                                             ||
+||    Successfully assigned alignments : 6742431 (20.9%)                      ||
+||    Running time : 1.80 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204877Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 29320781                                             ||
+||    Successfully assigned alignments : 7123395 (24.3%)                      ||
+||    Running time : 4.83 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204970Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 25339839                                             ||
+||    Successfully assigned alignments : 5082063 (20.1%)                      ||
+||    Running time : 1.54 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR188449Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 41641694                                             ||
+||    Successfully assigned alignments : 8159277 (19.6%)                      ||
+||    Running time : 3.18 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204852Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 30102009                                             ||
+||    Successfully assigned alignments : 7615081 (25.3%)                      ||
+||    Running time : 4.66 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204916Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 32650847                                             ||
+||    Successfully assigned alignments : 4743358 (14.5%)                      ||
+||    Running time : 0.23 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR188055Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 57073489                                             ||
+||    Successfully assigned alignments : 13541675 (23.7%)                     ||
+||    Running time : 12.09 minutes                                            ||
+||                                                                            ||
+|| Process BAM file ERR204969Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 23295646                                             ||
+||    Successfully assigned alignments : 5562427 (23.9%)                      ||
+||    Running time : 2.96 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204889Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 23837827                                             ||
+||    Successfully assigned alignments : 5365577 (22.5%)                      ||
+||    Running time : 2.12 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204987Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 24971139                                             ||
+||    Successfully assigned alignments : 5123374 (20.5%)                      ||
+||    Running time : 1.35 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204880Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 25257502                                             ||
+||    Successfully assigned alignments : 5569808 (22.1%)                      ||
+||    Running time : 1.11 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204923Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 34259536                                             ||
+||    Successfully assigned alignments : 7963565 (23.2%)                      ||
+||    Running time : 4.17 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR188390Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 44261487                                             ||
+||    Successfully assigned alignments : 7988361 (18.0%)                      ||
+||    Running time : 4.05 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204845Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 22956609                                             ||
+||    Successfully assigned alignments : 5188809 (22.6%)                      ||
+||    Running time : 1.91 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204942Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 26316434                                             ||
+||    Successfully assigned alignments : 5026036 (19.1%)                      ||
+||    Running time : 1.61 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR205007Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 26641186                                             ||
+||    Successfully assigned alignments : 6363441 (23.9%)                      ||
+||    Running time : 2.14 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR205019Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 23450821                                             ||
+||    Successfully assigned alignments : 5464925 (23.3%)                      ||
+||    Running time : 3.85 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR188042Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 37181521                                             ||
+||    Successfully assigned alignments : 8651833 (23.3%)                      ||
+||    Running time : 4.39 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204980Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 24960288                                             ||
+||    Successfully assigned alignments : 5532364 (22.2%)                      ||
+||    Running time : 1.67 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204906Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 28271546                                             ||
+||    Successfully assigned alignments : 5772197 (20.4%)                      ||
+||    Running time : 1.91 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR205000Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 33117489                                             ||
+||    Successfully assigned alignments : 7552627 (22.8%)                      ||
+||    Running time : 6.08 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204842Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 20949898                                             ||
+||    Successfully assigned alignments : 4689408 (22.4%)                      ||
+||    Running time : 0.43 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204949Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 22335117                                             ||
+||    Successfully assigned alignments : 5446949 (24.4%)                      ||
+||    Running time : 3.16 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204913Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 20877500                                             ||
+||    Successfully assigned alignments : 4157877 (19.9%)                      ||
+||    Running time : 0.37 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204849Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 28698268                                             ||
+||    Successfully assigned alignments : 6858545 (23.9%)                      ||
+||    Running time : 3.23 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204892Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 31666382                                             ||
+||    Successfully assigned alignments : 7060269 (22.3%)                      ||
+||    Running time : 3.53 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR188072Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 84282499                                             ||
+||    Successfully assigned alignments : 27094352 (32.1%)                     ||
+||    Running time : 24.75 minutes                                            ||
+||                                                                            ||
+|| Process BAM file ERR204995Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 30034011                                             ||
+||    Successfully assigned alignments : 8178197 (27.2%)                      ||
+||    Running time : 3.44 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204828Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 27206539                                             ||
+||    Successfully assigned alignments : 5040696 (18.5%)                      ||
+||    Running time : 0.84 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR188128Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 45181250                                             ||
+||    Successfully assigned alignments : 9124416 (20.2%)                      ||
+||    Running time : 4.18 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR188365Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 43668742                                             ||
+||    Successfully assigned alignments : 8369248 (19.2%)                      ||
+||    Running time : 3.82 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204821Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 21498377                                             ||
+||    Successfully assigned alignments : 5034703 (23.4%)                      ||
+||    Running time : 2.02 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR205020Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 30664980                                             ||
+||    Successfully assigned alignments : 8049743 (26.3%)                      ||
+||    Running time : 5.19 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR188162Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 32654222                                             ||
+||    Successfully assigned alignments : 5812813 (17.8%)                      ||
+||    Running time : 1.44 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204938Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 23798838                                             ||
+||    Successfully assigned alignments : 5328433 (22.4%)                      ||
+||    Running time : 3.06 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR188275Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 39852400                                             ||
+||    Successfully assigned alignments : 7912066 (19.9%)                      ||
+||    Running time : 4.48 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204904Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 27951016                                             ||
+||    Successfully assigned alignments : 6106397 (21.8%)                      ||
+||    Running time : 2.69 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204959Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 18941950                                             ||
+||    Successfully assigned alignments : 4401238 (23.2%)                      ||
+||    Running time : 0.45 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR188103Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 47478386                                             ||
+||    Successfully assigned alignments : 8184733 (17.2%)                      ||
+||    Running time : 3.55 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR188085Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 34785657                                             ||
+||    Successfully assigned alignments : 6305042 (18.1%)                      ||
+||    Running time : 2.72 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR188460Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 79768697                                             ||
+||    Successfully assigned alignments : 23840968 (29.9%)                     ||
+||    Running time : 28.08 minutes                                            ||
+||                                                                            ||
+|| Process BAM file ERR188165Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 23083770                                             ||
+||    Successfully assigned alignments : 3915522 (17.0%)                      ||
+||    Running time : 0.11 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204985Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 28277271                                             ||
+||    Successfully assigned alignments : 4208215 (14.9%)                      ||
+||    Running time : 1.32 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204940Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 27609561                                             ||
+||    Successfully assigned alignments : 12085613 (43.8%)                     ||
+||    Running time : 0.09 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204859Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 20918230                                             ||
+||    Successfully assigned alignments : 4913043 (23.5%)                      ||
+||    Running time : 0.80 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204847Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 25447203                                             ||
+||    Successfully assigned alignments : 5357645 (21.1%)                      ||
+||    Running time : 1.99 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ERR204903Aligned.out.sam.sorted.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 26176142                                             ||
+||    Successfully assigned alignments : 5876528 (22.4%)                      ||
+||    Running time : 1.68 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+\\============================================================================//
+
