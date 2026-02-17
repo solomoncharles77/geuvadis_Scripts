@@ -5,7 +5,7 @@
 #SBATCH --nodes=1
 #SBATCH --cpus-per-task=28
 #SBATCH --mem=20G
-#SBATCH --time=48:00:00
+#SBATCH --time=168:00:00
 #SBATCH --mail-type=BEGIN,END,FAIL
 #SBATCH --mail-user=cs806@leicester.ac.uk
 #SBATCH --output=%x.out
@@ -14,7 +14,7 @@
 
 cd $SLURM_SUBMIT_DIR
 
-module load samtools/1.17-wenuvv5
+module load samtools
 
 while IFS= read -r F
 do
@@ -26,4 +26,4 @@ do
   samtools view -T /scratch/vasccell/cs806/exprPhenoData/Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa \
   -C -o /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/cramFiles/${S1}.sorted.bam.cram /lustre/alice3/scratch/vasccell/cs806/geuvadis/mappedReads/${S1}.sorted.bam
 
-done < /lustre/alice3/scratch/vasccell/cs806/geuvadis/geuvadis_Scripts/allSam_leftOver.txt
+done < /lustre/alice3/scratch/vasccell/cs806/geuvadis/geuvadis_Scripts/allSam.txt
