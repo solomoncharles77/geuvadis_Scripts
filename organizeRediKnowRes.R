@@ -1,69 +1,71 @@
 library(data.table)
 
-# Functions ---------------------------------------------------------------
-# Define the merge function for Reduce
-mergeFunc <- function(x, y) {
-  merge(x, y, by = "coordID", all = TRUE) 
-}
-
-# Specify target directory and files --------------------------------------
-tagDir <- "geuvadisRediKnown/"
-tagFiles <- list.files(tagDir, "outTable", recursive = T)
-tagID <- sub("/.*", "", tagFiles)
-
-# Import and select only Frequency  ---------------------------------------
-emptyFiles <- character(0)
-
-freqList <- lapply(tagFiles, function(x) {
-  df_path <- paste0(tagDir, x)
-  df <- tryCatch(fread(df_path), error = function(e) return(NULL))
-  df <- as.data.frame(df)
-  
-  # Check for problems: NULL, empty, or missing required columns
-  if (is.null(df) || nrow(df) == 0 || 
-      !all(c("Region", "Position", "Reference", "Frequency") %in% colnames(df))) {
-    # Append filename to emptyFiles (using <<- to modify global variable)
-    emptyFiles <<- c(emptyFiles, x)
-    return(NULL)
-  }else {
-  
-  df$coordID <- paste0(df$Region, ":", df$Position)
-  df <- df[df$`Coverage-q30` >= 20  & df$Frequency > 0, ]
-  df <- df[, c("coordID", "Frequency")]
-  return(df)
-  }
-})
-names(freqList) <- tagID
-
-
-# aaa remove empty dataframes, rename to samples and merge to single dataframe -------
-freqList <- Filter(function(df) !is.null(df) && nrow(df) > 0, freqList)
-
-# export list of samples for complete samples 
-cID <- names(freqList)
-write.table(data.frame(cID), "geuvadis_Scripts/geuvadisRediKnownComplete.txt", row.names = F, col.names = F, quote = F)
-
-freqList <- lapply(names(freqList), function(x){
-  df <- freqList[[x]]
-  df <- df[df$Frequency > 0, ]
-  colnames(df)[2] <- x
-  return(df)
-})
-
-gc()
-# Use Reduce to iteratively merge the dataframes in the list
-freqDF <- Reduce(mergeFunc, freqList)
-
-fwrite(freqDF, "phenoFiles/rawGeuvadisRediKnown.txt.gz", row.names = F)
+# # Functions ---------------------------------------------------------------
+# # Define the merge function for Reduce
+# mergeFunc <- function(x, y) {
+#   merge(x, y, by = "coordID", all = TRUE) 
+# }
+# 
+# # Specify target directory and files --------------------------------------
+# tagDir <- "geuvadisRediKnown/"
+# tagFiles <- list.files(tagDir, "outTable", recursive = T)
+# tagID <- sub("/.*", "", tagFiles)
+# 
+# # Import and select only Frequency  ---------------------------------------
+# emptyFiles <- character(0)
+# 
+# freqList <- lapply(tagFiles, function(x) {
+#   df_path <- paste0(tagDir, x)
+#   df <- tryCatch(fread(df_path), error = function(e) return(NULL))
+#   df <- as.data.frame(df)
+#   
+#   # Check for problems: NULL, empty, or missing required columns
+#   if (is.null(df) || nrow(df) == 0 || 
+#       !all(c("Region", "Position", "Reference", "Frequency") %in% colnames(df))) {
+#     # Append filename to emptyFiles (using <<- to modify global variable)
+#     emptyFiles <<- c(emptyFiles, x)
+#     return(NULL)
+#   }else {
+#   
+#   df$coordID <- paste0(df$Region, ":", df$Position)
+#   df <- df[df$`Coverage-q30` >= 20  & df$Frequency > 0, ]
+#   df <- df[, c("coordID", "Frequency")]
+#   return(df)
+#   }
+# })
+# names(freqList) <- tagID
+# 
+# 
+# # aaa remove empty dataframes, rename to samples and merge to single dataframe -------
+# freqList <- Filter(function(df) !is.null(df) && nrow(df) > 0, freqList)
+# 
+# # export list of samples for complete samples 
+# cID <- names(freqList)
+# write.table(data.frame(cID), "geuvadis_Scripts/geuvadisRediKnownComplete.txt", row.names = F, col.names = F, quote = F)
+# 
+# freqList <- lapply(names(freqList), function(x){
+#   df <- freqList[[x]]
+#   df <- df[df$Frequency > 0, ]
+#   colnames(df)[2] <- x
+#   return(df)
+# })
+# 
+# gc()
+# # Use Reduce to iteratively merge the dataframes in the list
+# freqDF <- Reduce(mergeFunc, freqList)
+# fwrite(freqDF, "phenoFiles/rawGeuvadisRediKnown.txt.gz", row.names = F)
 
 #########################################################################################################
 # Samples with genotype data
-fam <- read.table("genoFiles/all_hg38.fam")
+fam <- read.table("genoFiles/allGeuvadisSampGeno.fam")
 
 # Import raw editing data
 freqDF <- data.frame(fread("phenoFiles/rawGeuvadisRediKnown.txt.gz"))
 rownames(freqDF) <- freqDF$coordID
 freqDF$coordID <- NULL
+mapFile <- read.table("exprFiles/matched_allSampsPheno.txt")
+colnames(freqDF) <- mapFile$V2[match(colnames(freqDF), mapFile$V1)]
+
 
 # Filter out samples without geno data
 matchedCols <- match(fam$V2, colnames(freqDF))

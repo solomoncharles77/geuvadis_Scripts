@@ -2,7 +2,7 @@
 
 for i in {01..22}; do
   # Create a unique job name
-  job_name="geuREDI_${i}"
+  job_name="geuC2U_${i}"
 
   # Set the input file path
   input_file="bamList_${i}.txt"
@@ -17,7 +17,7 @@ for i in {01..22}; do
 #SBATCH --nodes=1
 #SBATCH --cpus-per-task=28
 #SBATCH --mem=20G
-#SBATCH --time=12:00:00
+#SBATCH --time=01:00:00
 #SBATCH --mail-type=BEGIN,END,FAIL
 #SBATCH --mail-user=cs806@leicester.ac.uk
 #SBATCH --output=${job_name}.out
@@ -38,11 +38,11 @@ EOF
   while IFS= read -r sample; do
     cat >> "$tmp_script" <<EOF
         echo ${sample}
-        mkdir geuvadisRediKnown/${sample}
+        mkdir geuC2UEdit/${sample}
         REDItoolKnown.py -i mappedReads/${sample}.sorted.bam \
         -f /scratch/vasccell/cs806/exprPhenoData/Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa \
-        -l /scratch/vasccell/cs806/rnaEditing/editDB/knownEditingSites_TABLE1_hg38_v3.tab.gz \
-        -o geuvadisRediKnown/${sample}/ \
+        -l /scratch/vasccell/cs806/rnaEditing/editDB/C2U_Db_hg38.tab.gz \
+        -o geuC2UEdit/${sample}/ \
         -t 28
 EOF
   done < /scratch/vasccell/cs806/geuvadis/geuvadis_Scripts/${input_file}

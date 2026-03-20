@@ -18,6 +18,7 @@ write.table(mrnaSamps2, "exprFiles/matched_EUR_Pheno.txt", row.names = F, quote 
 ################################################################################
 mrnaSamps <- read.table("geuvadis_allSamp_mRNA_detail_extract.txt", header = T)
 genoSamps <- read.table("../colocalization/1000Genome/1kGMerge.fam")
+#genoSamps <- read.table("genoFiles/all_hg38.fam")
 
 mrnaSamps <- mrnaSamps[!duplicated(mrnaSamps$SAMPLE_NAME), c(1,2)]
 mrnaSamps$SAMPLE_NAME <- sub("GEUV:", "", mrnaSamps$SAMPLE_NAME)
@@ -31,3 +32,4 @@ write.table(mrnaSamps2, "exprFiles/matched_allSampsPheno.txt", row.names = F, qu
 
 head(genoSamps2)
 head(mrnaSamps2)
+
